@@ -1,0 +1,10 @@
+Implement 3-party chat using UDP based on IPv6. For the program specify the command 
+line arguments as follows 
+ -n <name of chatter> 
+ -a <ipv6 address to be used by this program> 
+ -p <port number on which this program will receive chat msgs from others> 
+ -d <ipv6 address of 2nd party>,<ipv6 address of 3rd party> 
+ -r <port number of 2nd party>,<port number of 3rd party> 
+The program will receive inputs on command line and send the same to other chat partners. 
+When the program receives the input from other chat partners, it should display the same on 
+console along with its id. 
